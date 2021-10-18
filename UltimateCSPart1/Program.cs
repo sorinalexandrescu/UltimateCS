@@ -13,6 +13,14 @@ namespace UltimateCSPart1
             PrimitivesTypes pt = new PrimitivesTypes();
             pt.VarsAndNumbers();
             pt.TypeConversionDemo();
+            
+            // Non Primitive Types
+            Person person = new Person();
+            person.Name = "Sorin";
+            person.Introduce();
+
+            int result = Calculator.Add(2, 3);
+
         }
     }
 }
