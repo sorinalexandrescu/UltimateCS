@@ -1,4 +1,6 @@
 ﻿using System;
+using UltimateCSPart1._3.NonPrimitiveTypes;
+using UltimateCSPart1._3.NonPrimitiveTypes.Math;
 
 namespace UltimateCSPart1
 {
@@ -15,12 +17,14 @@ namespace UltimateCSPart1
             pt.TypeConversionDemo();
             
             // Non Primitive Types
-            Person person = new Person();
-            person.Name = "Sorin";
-            person.Introduce();
+            var john = new Person();
+            john.FirstName = "John";
+            john.LastName = "Smith";
+            john.Introduce();
 
-            int result = Calculator.Add(2, 3);
-
+            Calculator calculator = new Calculator();
+            var result = Calculator.Add(2, 3);
+            Console.WriteLine(result);
         }
     }
 }

@@ -5,4 +5,14 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="4.ControlFlow" />
+      <Folder Include="1.GettingStarted" />
+      <Folder Include="5.ArraysAndLists" />
+      <Folder Include="6.WorkingWithDates" />
+      <Folder Include="8.WorkingWithFiles" />
+      <Folder Include="7.WorkingWithText" />
+      <Folder Include="9.DebuggingApps" />
+    </ItemGroup>
+
 </Project>
